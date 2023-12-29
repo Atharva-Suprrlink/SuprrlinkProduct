@@ -1,0 +1,10 @@
+.inputWrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	color: #092127;
+}
+
+.helperText {
+	margin-bottom: 10px;
+}

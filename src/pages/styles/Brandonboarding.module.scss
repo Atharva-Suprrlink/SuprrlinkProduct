@@ -1,0 +1,40 @@
+.onboardingPageWrapper {
+  display: flex;
+  background-color: #092127;
+}
+
+.leftPaneWrapper {
+  height: auto;
+  padding: 50px 100px;
+  width: 40%;
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.leftPaneWrapperLoginFormWrapper {
+  height: 80vh;
+}
+
+.createSubheading {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.loginSubmitbutton {
+  display: flex;
+  margin-top: 50px;
+}
+
+.loginSignupLink {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.overlay1 {
+  width: 60%;
+  background: #092127;
+}

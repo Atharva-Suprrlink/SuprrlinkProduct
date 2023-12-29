@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap");
+
+.root {
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /*do remember to check this out to let it be as it as or modify it based on the end result*/
+  gap: 2rem;
+  width: 100%;
+}
+
+.sectionOne {
+  display: flex;
+  color: #252a31;
+  font-family: Manrope;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem; /* 133.333% */
+  text-decoration-line: underline;
+}
+
+.sectionTwo {
+  display: flex;
+  width: 100%;
+  padding: 0rem 1rem 1rem 0rem;
+  justify-content: space-between;
+  align-items: flex-end; /*same here*/
+  border-bottom: 2px solid #eaeef3;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+
+  div {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem; /* 133.333% */
+  }
+
+  p {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.00875rem;
+  }
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  padding: 2rem 2.5rem 0rem 2.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #eaeef3;
+  background: #f1fbfe;
+}
+
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.bannerTitle {
+  color: #252a31;
+  font-family: Manrope;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 120% */
+}
+
+.bannerSubTitle {
+  color: #252a31;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 171.429% */
+  letter-spacing: 0.00875rem;
+}
+
+.bannerButton {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.greytext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #76747c;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.tableCell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  p {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
+  }
+}
+
+.imp {
+  display: flex;
+  padding: 0.125rem 0.75rem;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 0.25rem;
+  background: #0b2a31;
+  color: white;
+}
+
+.data {
+  display: flex;
+  width: 8.75rem;
+  padding: 0.5rem 0rem;
+  align-items: center;
+  gap: 0.5rem;
+}

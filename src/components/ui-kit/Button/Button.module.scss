@@ -1,0 +1,85 @@
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  padding-left: 8px;
+  padding-top: 1px;
+}
+
+.button {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: #1e63ec;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  align-self: flex-start;
+
+  button {
+    all: unset;
+  }
+
+  a {
+    all: unset;
+  }
+}
+
+.disabledButton {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: #dde0e2;
+  color: #fafbfb;
+  border-radius: 96px;
+  padding: 8px 24px;
+  cursor: not-allowed;
+  align-self: flex-start;
+
+  a {
+    all: unset;
+  }
+
+  button {
+    all: unset;
+  }
+}
+
+.loadingContainer {
+  border: 2px solid #fff; /* Light grey */
+  border-top: 2px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin-left: 8px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (width <= 768px) {
+  .button {
+    align-items: center;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+    align-self: center;
+  }
+}

@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+}
+
+.leftPane {
+  height: 100vh;
+  width: 6%;
+  min-width: 70px;
+  background: #0b2a31;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* justify-content: space-between; */
+  padding: 2rem 0rem 2rem 0rem;
+  overflow: auto;
+  position: fixed;
+  z-index: 1;
+}
+
+.optionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.optionContainer:hover {
+  background: #051417;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.optionContainerActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  background: #051417;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sectionOne {
+  /* margin-bottom: 1rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionTwo {
+  display: flex;
+  padding: 0rem 0.25rem 0rem 0.25rem;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sectionThree {
+  display: flex;
+  padding: 0rem 0.25rem 0rem 0.25rem;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pageContent {
+  margin-left: 6%;
+  flex: 1;
+}

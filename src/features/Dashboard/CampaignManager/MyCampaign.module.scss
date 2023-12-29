@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap");
+
+.root {
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /*do remember to check this out to let it be as it as or modify it based on the end result*/
+  gap: 2rem;
+  width: 100%;
+}
+
+.sectionOne {
+  display: flex;
+  color: #252a31;
+  font-family: Manrope;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem; /* 133.333% */
+  text-decoration-line: underline;
+}
+
+.sectionTwo {
+  display: flex;
+  width: 100%;
+  padding: 0rem 1rem 1rem 0rem;
+  justify-content: space-between;
+  align-items: flex-end; /*same here*/
+  border-bottom: 1px solid #eaeef3;
+}
+
+.sectionThree {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  p {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem; /* 133.333% */
+  }
+}
+
+.imp {
+  display: flex;
+  padding: 0.125rem 0.75rem;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 0.25rem;
+  background: #0b2a31;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.disabledButton {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  align-items: flex-start;
+  gap: 0.25rem;
+  border-radius: 0.25rem;
+  background: #eaeef3;
+
+  span {
+    color: #76747c;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1rem; /* 133.333% */
+  }
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+
+  span {
+    color: #1e1e1e;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 150% */
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.heading {
+  color: #1e1e1e;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+
+.dataNumber {
+  display: flex;
+  padding: 0rem 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6041ce;
+  font-family: Manrope;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+  border-radius: 0.75rem;
+  background: #eee9ff;
+}
+
+.tableContainer {
+  width: 100%;
+  border: 1px solid #e9e9e9;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.tableName {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.tableHeader {
+  display: flex;
+  height: 4rem;
+  padding: 1.25rem;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.dataTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  p {
+    color: #1e1e1e;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
+  }
+}
+
+.dataSymbol {
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0rem 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+}
+
+.statusContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  span {
+    width: 0.5rem;
+    height: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    background: #329330;
+  }
+
+  div {
+    color: #329330;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 142.857% */
+  }
+}
+
+.audienceContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}

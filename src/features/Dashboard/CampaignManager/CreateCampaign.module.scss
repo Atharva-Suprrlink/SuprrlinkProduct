@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap");
+
+.root {
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /*do remember to check this out to let it be as it as or modify it based on the end result*/
+  gap: 2rem;
+  width: 100%;
+}
+
+.sectionOne {
+  display: flex;
+  color: #252a31;
+  font-family: Manrope;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem; /* 133.333% */
+  text-decoration-line: underline;
+}
+
+.sectionTwo {
+  display: flex;
+  width: 100%;
+  padding: 0rem 1rem 1rem 0rem;
+  justify-content: space-between;
+  align-items: flex-end; /*same here*/
+  border-bottom: 1px solid #eaeef3;
+}
+
+.sectionThree {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+
+  div {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem; /* 133.333% */
+  }
+
+  p {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.00875rem;
+  }
+}
+
+.leftPane {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 70%;
+  //   flex: 1 0 0;
+}
+
+.formBoxContainer {
+  display: flex;
+  padding: 2rem;
+  align-items: flex-start;
+  gap: 3rem;
+  flex: 1 0 0;
+  //   width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #eaeef3;
+  background: #fff;
+}
+
+.formTitleContainer {
+  display: flex;
+  width: 17.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-shrink: 0;
+}
+
+.titleSymbolContainer {
+  display: flex;
+  padding: 0.5rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  background: #edf4f6;
+}
+
+.formTitleContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.formContent1 {
+  color: #252a31;
+  font-family: Manrope;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 120% */
+}
+
+.formContent2 {
+  color: #808080;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 171.429% */
+  letter-spacing: 0.00875rem;
+}
+
+.formInputContainer {
+  display: flex;
+  padding-top: 72px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex: 1 0 0;
+
+  input {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+  }
+}
+
+// .checkbox {
+//   display: flex;
+//   align-items: center;
+//   align-content: center;
+//   gap: 1rem;
+//   align-self: stretch;
+//   flex-wrap: wrap;
+
+//   label {
+//     color: #1e1e1e;
+//     text-align: center;
+//     font-family: Manrope;
+//     font-size: 0.875rem;
+//     font-style: normal;
+//     font-weight: 500;
+//     line-height: 2rem; /* 228.571% */
+//   }
+// }
+
+.radio {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 228.571% */
+}
+
+.label {
+  color: #092127;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.inputTitleContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.25rem;
+  align-self: stretch;
+
+  span {
+    color: #a6a6a6;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
+  }
+}
+
+.calendarContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+
+.rightpane {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 30%;
+}
+
+.rightpaneUpperBox {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  background: #f9f9f9;
+  width: 100%;
+}
+
+.rightPaneBox1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+
+  div {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 120% */
+  }
+
+  p {
+    color: #808080;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.00875rem;
+  }
+}
+
+.rightPaneBox2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+
+  p {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.00875rem;
+  }
+}
+
+.bannerContainer {
+  display: flex;
+//   justify-content: flex-end;
+//   align-items: flex-end;
+  position: relative;
+  border: 1px solid #eaeef3;
+  background: #f1fbfe;
+  height: 22.5625rem; /*important*/
+  border-radius: 0.5rem;
+}
+
+.banner {
+  display: flex;
+  padding: 2rem 2rem 0 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+
+//   div {
+//     color: #252a31;
+//     font-family: Manrope;
+//     font-size: 1.25rem;
+//     font-style: normal;
+//     font-weight: 600;
+//     line-height: 1.5rem; /* 120% */
+//   }
+
+  p {
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.00875rem;
+  }
+}
+
+.bannerContentTitle{
+    color: #252a31;
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 120% */
+}
+
+.bannerButtons {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+// @media (max-width: 1260px){
+//     .bannerContentTitle{
+//         font-size: 1rem;
+//         line-height: 1rem;
+//     }
+// }
